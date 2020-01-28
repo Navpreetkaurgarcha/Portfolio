@@ -1,38 +1,125 @@
-.App {
+.header-color{
+  background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+}
+.landing-grid{
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.projects-grid{
+  display:flex;
+  
+}
+.project-body{
+  width:100%;
+  height:100%;
+  background-color: rgb(144, 208, 250); 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.avatar-img{
+  height: 230px;
+  padding-top: 2.5cm;;
+  padding-bottom: 0.5cm;
+  margin-left: 1cm;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.banner-text{
+  background-color:rgba(81, 124, 129, 0.616);
+  opacity: .9;
+  width: 90%;
+  margin-left: 1.5cm;
+  border-radius:10px;
+}
+
+.banner-text h1{
+  font-size: 50px;
+  font-weight: bold;
   color: white;
+  margin-left: 2cm;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-text hr{
+  border-top:5px dotted white;
+  width: 30%;
+  margin-left: 12cm;
+}
+.banner-text p{
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+  margin-left: 2cm;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-links{
+  display: flex;
+  justify-content:space-evenly;
+  width: 50;
+  padding-bottom: 1em;
+}
+
+.social-links i{
+  color: white;
+  font-size: 3em;  
+}
+
+/*resume page*/
+.resume-right-col {
+  color : black;
+  background-color: rgb(144, 208, 250);
+}
+
+
+/*contact page*/
+
+.contact-body{
+margin: auto;
+width: 100%;
+height: 100%;
+position: fixed;
+justify-content: center;
+padding-top: 2em;
+background-color: rgb(144, 208, 250);
+}
+
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 500px;
+  background: white;
+  color: black;
+  margin-bottom: 30px;
+  background-color: rgb(144, 208, 250);
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width:50%;
+  margin:auto;
+}
+
+.contact-list i{
+  font-size: 55px;
+  padding-right: rem;
+  
 }
