@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-import Image from '../Image/profile_image.jpg';
+//import Image from '../Image/profile_image.jpg';
 
 class Contact extends Component {
     render() {
         return (
             <div className="contact-body">
                 <Grid className="contact-grid">
-                    <Cell col={6}>
+                   {/*  <Cell col={6}>
                         <h2>Navpreet Garcha</h2>
                         <img
                             src={Image}
@@ -20,7 +20,7 @@ class Contact extends Component {
                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                         </p>
-                    </Cell>
+                    </Cell> */}
                     <Cell col={6}>
                         <h2>Contact Me</h2>
                         <hr />

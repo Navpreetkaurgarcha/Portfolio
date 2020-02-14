@@ -10,7 +10,7 @@ class Resume extends Component{
                 <Grid style={{marginLeft: '4cm', marginRight:'auto'}}> 
                     <Cell className="resume-right-col" col={10}>
                  <h4>Summary Of Qualifications</h4>
-                 <List style={{fontFamily:"bold"}}>
+                 <List style={{fontWeight:"bold"}}>
   <ListItem>
     <ListItemContent>•>Over 3 years of experience in developing various applications using ASP.NET and React Native, Node.js, JavaScript etc.</ListItemContent>
   </ListItem>
@@ -40,7 +40,7 @@ class Resume extends Component{
 
                     <hr style={{borderTop :'2px solid black'}}></hr>
                     <h4>Technical Skills</h4>
-                    <List style={{fontFamily:"bold"}}>
+                    <List style={{fontWeight:"bold"}}>
   <ListItem>
     <ListItemContent>•>Programming Languages: C#, ASP.NET, Python, React JS, Angular, React Native, Typescript.</ListItemContent>
   </ListItem>
@@ -76,7 +76,7 @@ class Resume extends Component{
                         startYear={2016}
                         endYear={2018}
                         jobName={"Software Developer(Co-op)"}
-                        companyName={"SPIC"}
+                        companyName={"SPIC,India"}
                         jobdescription="•>Developed web and desktop applications for various clients (Projects showcased below).
                         •>Analyzing and understanding requirements and working with team for integration of code
                         •>Responsibilities include creation of scenarios, creation of project modules, designing, execution, testing, 
