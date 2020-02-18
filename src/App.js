@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom';
 class App extends Component {
   render(){
   return (
-    <div className="demo-big-content"  style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
+    <div className="demo-big-content" >
     <Layout >
         <Header className="header-color" title={<Link style={{textDecoration: 'none',color:'black',fontSize:25,fontWeight:'bold'}}
     to="/">MyPortfolio</Link>} scroll>
