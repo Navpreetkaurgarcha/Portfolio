@@ -7,7 +7,7 @@ class Resume extends Component{
     render(){
         return(
             <div>
-                <Grid style={{marginLeft: '4cm', marginRight:'auto'}}> 
+                <Grid style={{marginLeft: 'auto', marginRight:'auto', background:'rgb(158, 140, 80)'}}> 
                     <Cell className="resume-right-col" col={10}>
                  <h4>Summary Of Qualifications</h4>
                  <List style={{fontWeight:"bold"}}>
@@ -75,7 +75,7 @@ class Resume extends Component{
                         <Experience
                         startYear={2016}
                         endYear={2018}
-                        jobName={"Software Developer(Co-op)"}
+                        jobName={"Junior Software Developer"}
                         companyName={"SPIC,India"}
                         jobdescription="•>Developed web and desktop applications for various clients (Projects showcased below).
                         •>Analyzing and understanding requirements and working with team for integration of code

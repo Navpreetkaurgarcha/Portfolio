@@ -3,11 +3,12 @@ import './App.css';
 import {Layout,Header,Navigation,Content,Drawer} from 'react-mdl';
 import Main from './components/main';
 import {Link} from 'react-router-dom';
+import Landing from './components/landingpage';
 
 class App extends Component {
   render(){
   return (
-    <div className="demo-big-content" >
+    <div className="demo-big-content" >        
     <Layout >
         <Header className="header-color" title={<Link style={{textDecoration: 'none',color:'black',fontSize:25,fontWeight:'bold'}}
     to="/">MyPortfolio</Link>} scroll>

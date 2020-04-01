@@ -3,6 +3,7 @@ import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, 
 import Image from '../Image/Humber_project.PNG';
 import Image1 from '../Image/Web3.PNG';
 import Image2 from '../Image/Desktop.PNG';
+import pdf from '../Image/Calculator App.pdf';
 
 
 class Projects extends Component {
@@ -47,6 +48,25 @@ class Projects extends Component {
                   </CardText>
                         <CardActions border>
                             <a href="https://expo.io/@navpreet/To-Do-App" target="_blank" rel="noopener nonreferrer">Expo Link</a>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+               
+                     {/*Project 3 */}
+                     <Card shadow={5} style={{ width: '400px', height:'360px', margin: 'auto' }}>
+                     <CardTitle style={{backgroundColor:'rgb(158, 140, 80)'}}>React-Native Calculator App </CardTitle>
+                        <CardTitle style={{ color: 'black',fontWeight:'bolder', height: '210px', background: 'url(https://i.morioh.com/c4ee175a73.png) center / cover' }}></CardTitle>
+                        <CardText style={{ fontSize:15,color:'black'}}>
+                            Developed Personal Portfolio App using create-react-app.
+                            Tools/Libraries used:
+                            create-react-app cli,
+                            React MDL material design.
+                            Deployed on github.
+                  </CardText>
+                        <CardActions border>
+                            <a href={pdf} target="_blank" rel="noopener nonreferrer">View PDF</a>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
