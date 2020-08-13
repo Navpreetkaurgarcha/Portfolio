@@ -20,12 +20,12 @@ class Landing extends Component{
 
                             <div className="social-links">
                                 {/* LinkedIn */}
-                                <a href="https://www.linkedin.com/in/navpreet-garcha-16b61169/" rel="noopener nonreferrer" target="_blank">
-                                <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                                <a href="https://www.linkedin.com/in/navpreet-garcha-16b61169/" target="_blank" rel="noopener noreferrer">
+                                  <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                                 </a>
 
                                  {/* GitHub */}
-                                 <a href="http://google.com" rel="noopener nonreferrer" target="_blank">
+                                 <a href="http://google.com"  target="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-github-square" aria-hidden="true"></i>
                                 </a>
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, CardMenu, IconButton, CardText } from 'react-mdl';
 import Image from '../Image/Humber_project.PNG';
 import Image1 from '../Image/Web3.PNG';
 import Image2 from '../Image/Desktop.PNG';
@@ -28,7 +28,7 @@ class Projects extends Component {
                             Deployed on github.
                   </CardText>
                         <CardActions border>
-                        <a href="https://navpreetxccelerata.github.io/react-gh-pages/" target="_blank"  rel="noopener nonreferrer">Github Deployed Link</a>
+                        <a href="https://navpreetxccelerata.github.io/react-gh-pages/"  target="_blank" rel="noopener noreferrer">Github Deployed Link</a>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -47,7 +47,7 @@ class Projects extends Component {
                             Deployed on github.
                   </CardText>
                         <CardActions border>
-                            <a href="https://expo.io/@navpreet/To-Do-App" target="_blank" rel="noopener nonreferrer">Expo Link</a>
+                            <a href="https://expo.io/@navpreet/To-Do-App"  target="_blank" rel="noopener noreferrer">Expo Link</a>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -66,7 +66,7 @@ class Projects extends Component {
                             Deployed on github.
                   </CardText>
                         <CardActions border>
-                            <a href={pdf} target="_blank" rel="noopener nonreferrer">View PDF</a>
+                            <a href={pdf}  target="_blank" rel="noopener noreferrer">View PDF</a>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -88,7 +88,7 @@ class Projects extends Component {
                             business logic,data layer and presentation layer which add flexibility to the application.                        
                   </CardText>
                         <CardActions border>
-                      <a href={Image} target="_blank" rel="noopener nonreferrer">Project Image Link</a> 
+                      <a href={Image}  target="_blank" rel="noopener noreferrer">Project Image Link</a> 
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -107,7 +107,7 @@ class Projects extends Component {
                       
                   </CardText>
                         <CardActions border>
-                      <a href={Image1} target="_blank" rel="noopener nonreferrer">Project Image Link</a> 
+                      <a href={Image1}  target="_blank" rel="noopener noreferrer">Project Image Link</a> 
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -128,7 +128,7 @@ class Projects extends Component {
                         includes modules for managing data of retailers, customers and stock available.       
                   </CardText>
                         <CardActions border>
-                      <a href={Image2} target="_blank" rel="noopener nonreferrer">Project Image Link</a> 
+                      <a href={Image2}  target="_blank" rel="noopener noreferrer">Project Image Link</a> 
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
