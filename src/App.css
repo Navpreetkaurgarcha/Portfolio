@@ -1,13 +1,13 @@
 .header-color{
-  background: #6D6027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #D3CBB8, #6D6027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #60a6bb;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #54666d, #60a6bb);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #54666d, #60a6bb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  
 }
 .landing-grid{
-  background: #6D6027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #D3CBB8, #6D6027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #60a6bb;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b8cbd3, #60a6bb);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b8cbd3, #60a6bb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
   text-align: center;
   position: fixed;
@@ -19,12 +19,14 @@ background: linear-gradient(to right, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, F
 
 .projects-grid{
   display:flex;
+  /* flex-direction: 'row'; */
   
 }
+
 .project-body{
   width:100%;
   height:100%;
-  background-color: rgb(158, 140, 80);
+  background-color:#b8cbd3;
 }
 
 .avatar-img{
@@ -35,11 +37,12 @@ background: linear-gradient(to right, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, F
 }
 
 .banner-text{
-  background-color:rgb(158, 140, 80);
+  background-color:#556e75;
   opacity: .9;
   width: 90%;
   margin-left: 1.5cm;
   border-radius:10px;
+  margin-top:3.5cm
 }
 
 .banner-text h1{
@@ -76,7 +79,7 @@ background: linear-gradient(to right, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, F
 /*resume page*/
 .resume-right-col {
   color : black;
-  background-color: rgb(158, 140, 80);
+  background-color: #556e75;
 }
 
 /*About me*/
@@ -87,7 +90,7 @@ height: 100%;
 position: fixed;
 justify-content: center;
 padding-top: 2em;
-background-color:#6D6027;
+background-color:#b8cbd3;
 }
 .about-me-grid{
   text-align: center;
@@ -97,7 +100,7 @@ background-color:#6D6027;
   background: white;
   color:black;
   margin-bottom: 30px;
-  background-color:rgb(158, 140, 80);
+  background-color:#556e75;
 }
 
 .about-me-grid h2 {
@@ -118,7 +121,7 @@ height: 100%;
 position: fixed;
 justify-content: center;
 padding-top: 2em;
-background-color:#6D6027;
+background-color:#b8cbd3;
 }
 
 .contact-grid{
@@ -129,7 +132,7 @@ background-color:#6D6027;
   background: white;
   color:black;
   margin-bottom: 30px;
-  background-color:rgb(158, 140, 80);
+  background-color:#556e75;
 }
 
 .contact-grid h2 {
