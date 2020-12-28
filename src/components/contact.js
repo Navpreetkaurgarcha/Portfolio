@@ -1,3 +1,4 @@
+//changes
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 //import Image from '../Image/profile_image.jpg';
