@@ -9,19 +9,19 @@ class Resume extends Component {
       <div>
         <Grid
           style={{
-            marginLeft: 'auto',
+            marginLeft: 30,
             marginRight: 'auto',
-            background: 'rgb(158, 140, 80)',
+            background: '#b8cbd3',
           }}
         >
           <Cell className="resume-right-col" col={10}>
-            <h4>Summary Of Qualifications</h4>
-            <List style={{ fontWeight: 'bold' }}>
-              <ListItem>
-                <ListItemContent>
+            <h4 style={{padding:10}}>Summary Of Qualifications</h4>
+            <List style={{ fontWeight: 'bold' ,padding:20}}>
+              <ListItem >
+                <ListItemContent >
                   •>Over 3 years of experience in developing various
                   applications using React Native, ReactJs, Node.js, JavaScript,
-                  Redux, ASP.Net ,C# etc.
+                  Redux etc.
                 </ListItemContent>
               </ListItem>
               <ListItem>
@@ -62,36 +62,35 @@ class Resume extends Component {
               </ListItem>
               <ListItem>
                 <ListItemContent>
-                  •>Proven ability to learn independently: recently completed
-                  C++, Python through Udemy.
+                  •>Proven ability to learn independently.
                 </ListItemContent>
               </ListItem>
             </List>
 
             <hr style={{ borderTop: '2px solid black' }}></hr>
-            <h4>Technical Skills</h4>
-            <List style={{ fontWeight: 'bold' }}>
+            <h4 style={{padding:10}}>Technical Skills</h4>
+            <List style={{ fontWeight: 'bold',padding:20 }}>
               <ListItem>
                 <ListItemContent>
-                  •>Programming Languages: React JS, React Native, NodeJs,C#,
-                  ASP.NET, Python.
+                  •>Languages: React JS, React Native, NodeJs, C#, ASP.NET,
+                  Python, and HTML/CSS.
                 </ListItemContent>
               </ListItem>
               <ListItem>
                 <ListItemContent>
-                  •>IDE's:Visual Studio 2019, Visual Studio Code, Android
-                  Studio, Postman, MS SQL Server 2019, MongoDB, Turbo C++.
+                  •>IDE’s: Visual Studio Code, Android Studio, Postman, MS SQL
+                  Server 2019, MongoDB and MongoDB Atlas, Robo 3T, Altair ,
+                  GraphQL.
                 </ListItemContent>
               </ListItem>
               <ListItem>
                 <ListItemContent>
-                  •>Data: Entity Framework, LINQ, ADO.NET, JsQuery, JavaScript.
+                  •>Data Entity:JsQuery, JavaScript,JSON.
                 </ListItemContent>
               </ListItem>
               <ListItem>
                 <ListItemContent>
-                  •>Development Style: Object-Oriented Programming, ADO.NET
-                  ,MVC.
+                  •>Development Style: Object-Oriented Programming.
                 </ListItemContent>
               </ListItem>
               <ListItem>
@@ -101,7 +100,7 @@ class Resume extends Component {
               </ListItem>
             </List>
             <hr style={{ borderTop: '2px solid black' }}></hr>
-            <h4>Experience</h4>
+            <h4 style={{padding:10}}>Experience</h4>
             <Experience
               startYear={'April 2020'}
               endYear={'Present'}
@@ -117,7 +116,7 @@ class Resume extends Component {
             <Experience
               startYear={'May 2019'}
               endYear={'March 2020'}
-              jobName={'Software Developer'}
+              jobName={'Mobile App Developer'}
               companyName={'Xccelerata,Toronto'}
               jobdescription="•>Developed applications for Android and IOS devices and ensure applications are properly integrated with the API’s.
                         •>	Used NPM for installing required modules.
@@ -127,7 +126,7 @@ class Resume extends Component {
                         Frontend: - React Native, Javascript
                         Backend: - Node.js"
             />
-            <Experience
+            {/* <Experience
               startYear={'July 2017'}
               endYear={'Feb 2018'}
               jobName={'Junior Software Developer'}
@@ -139,10 +138,10 @@ class Resume extends Component {
                         •>Ensuring all records are entered and updated correctly.
                         Frontend: - .Net Framework
                         Backend: - MySQL "
-            />
+            /> */}
 
             <hr style={{ borderTop: '2px solid black' }}></hr>
-            <h4>Education</h4>
+            <h4 style={{padding:10}}>Education</h4>
             <Education
               startYear={2019}
               endYear={'Ongoing'}
@@ -153,15 +152,15 @@ class Resume extends Component {
               startYear={2019}
               endYear={2019}
               schoolName="Humber College,Toronto"
-              description=".Net Developer(IT Bridging Program)"
+              description="Mobile and mWeb development"
             />
 
-            <Education
+            {/* <Education
               startYear={2018}
               endYear={2019}
               schoolName="Udemy Online"
               description="Certification in Python"
-            />
+            /> */}
 
             <Education
               startYear={2013}

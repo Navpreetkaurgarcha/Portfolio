@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
-import Image from '../Image/profile_image.jpg';
+// import Image from '../Image/profile_image.jpg';
 
 class Landing extends Component{
     render(){
@@ -8,15 +8,15 @@ class Landing extends Component{
             <div style={{width:'100%',margin:'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img
+                        {/* <img
                         src={Image}
                         alt=""
                         className="avatar-img"
-                        />
+                        /> */}
                         <div className="banner-text">
-                            <h1>Software Developer</h1>
+                            <h1>Full Stack Developer</h1>
                             <hr/>
-                            <p>ASP.NET | C#| SQL | React Native | NodeJS | Python | C++ | Git | BitBucket </p>
+                            <p>Javascript | React Js | React Native | GraphQl | NodeJS | Python | C++ | Git | BitBucket </p>
 
                             <div className="social-links">
                                 {/* LinkedIn */}

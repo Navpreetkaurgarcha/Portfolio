@@ -6,11 +6,12 @@ import * as serviceWorker from './serviceWorker';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import { BrowserRouter } from 'react-router-dom';
-//import LandingPage from './components/landingpage';
+import LandingPage from './components/landingpage';
 
 ReactDOM.render(
 <BrowserRouter>
 <App />
+<LandingPage/>
 </BrowserRouter>
 , document.getElementById('root'));
 

@@ -58,10 +58,10 @@ class App extends Component {
             }
           >
             <Navigation>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/resume">Resume</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/aboutme"  style={{ color: 'black', fontSize: 20 }}>About Me</Link>
+              <Link to="/resume"  style={{ color: 'black', fontSize: 20 }}>Resume</Link>
+              <Link to="/projects"  style={{ color: 'black', fontSize: 20 }}>Projects</Link>
+              <Link to="/contact"  style={{ color: 'black', fontSize: 20 }}>Contact</Link>
             </Navigation>
           </Drawer>
           <Content>
