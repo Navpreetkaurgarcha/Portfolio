@@ -85,7 +85,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <a
-                href="https://navpreetxccelerata.github.io/react-gh-pages/"
+                href="https://github.com/Navpreetkaurgarcha/Portfolio.git"
                 target="_blank"
                 rel="noopener noreferrer"
               >
