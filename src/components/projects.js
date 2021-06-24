@@ -32,7 +32,7 @@ class Projects extends Component {
             style={{ width: '400px', height: '360px', margin: 10 }}
           >
             <CardTitle style={{ backgroundColor: '#556e75' }}>
-              Personal Portfolio App
+              Mobile Apps
             </CardTitle>
             <CardTitle
               style={{

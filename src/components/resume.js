@@ -102,8 +102,19 @@ class Resume extends Component {
             <hr style={{ borderTop: '2px solid black' }}></hr>
             <h4 style={{padding:10}}>Experience</h4>
             <Experience
-              startYear={'April 2020'}
+              startYear={'February 2021'}
               endYear={'Present'}
+              jobName={'Full Stack Developer(Freelance)'}
+              companyName={'OasisCode,Toronto'}
+              jobdescription="•>Collaborates with team in identifying software problems, testing methods and best solutions.
+                        •>Developing app-solutions using new react frameworks and languages.
+                        •>Working closely in planning, design, development and delivery of software products to clients.
+                        •>Make recommendations towards development of new code or to reuse existing code.
+                       "
+            />
+            <Experience
+              startYear={'April 2020'}
+              endYear={'January 2021'}
               jobName={'Full Stack Application Developer'}
               companyName={'Union Strathegies Inc.,Vaughan'}
               jobdescription="•>Working with an established team of developers.

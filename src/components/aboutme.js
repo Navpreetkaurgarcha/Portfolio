@@ -14,9 +14,9 @@ class About extends Component{
         Asp.Net technologies that emphasis on frontend development  and graphQL ,SQL for
          backend database.I have the skills to manage, design,code, and troubleshoot the 
          projects and modules of projects. I really enjoyed doing programming and coding and 
-         I am passionate to leran new programming languages. I have created small sized applications
-          using react native,javascript,react js,c++,python etc. Currently working as a Software Engineer and developing 
-          android and IOS applications.
+         I am passionate to learn new programming languages. I have created various applications
+          using react native,javascript,react js,c++,python etc. Currently working as a Full Stack Developer and developing 
+          android and IOS mobile & web applications.
         </p>
         </Cell>
     </Grid>
